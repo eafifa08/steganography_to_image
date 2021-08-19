@@ -117,5 +117,8 @@ def read_message_from_bmp(path_file):
 
 if __name__ == '__main__':
     path = 'file_100x100x24.bmp'
+    path2 = 'image_bmp.bmp'
     write_message_to_bmp(path, 'привет, neo')
+    write_message_to_bmp(path2,'вот так вот')
     print(read_message_from_bmp(path))
+    print(read_message_from_bmp(path2))
